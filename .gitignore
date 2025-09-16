@@ -1,0 +1,114 @@
+# ======================================
+# Logs
+# ======================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+uploads/
+
+
+# ======================================
+# Dependency directories
+# ======================================
+node_modules/
+.bower_components/
+
+# ======================================
+# Build output
+# ======================================
+dist/
+build/
+public/build/
+.out/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+storybook-static/
+.cache/
+.vite/
+
+# ======================================
+# Environment files (DO NOT COMMIT)
+# ======================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ======================================
+# IDEs and Editors
+# ======================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ======================================
+# OS/System Files
+# ======================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+*.AppleDouble
+.LSOverride
+
+# ======================================
+# TypeScript
+# ======================================
+*.tsbuildinfo
+
+# ======================================
+# Coverage and Test Results
+# ======================================
+coverage/
+*.lcov
+test-results/
+jest-html-reporters-*.html
+
+# ======================================
+# Firebase
+# ======================================
+.firebase/
+.firebaserc
+
+# ======================================
+# Miscellaneous
+# ======================================
+*.local
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+*.tmp
+*.orig
+*.rej
+*.log.*
+*.pid
+
+# ======================================
+# Optional Lock Files (Keep only for npm)
+# ======================================
+# Keep for npm:
+!package-lock.json
+
+# Ignore others:
+yarn.lock
+pnpm-lock.yaml
+
